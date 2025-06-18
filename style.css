@@ -1,0 +1,305 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#logo{
+    margin-left:20px;
+    width: 130px;
+}
+nav{
+    width:100%;
+    height:50px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index:1;
+}
+nav a{
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0px 20px;
+}
+nav a:hover{
+    color: brown;
+    text-decoration: underline;
+}
+#home{
+    display: flex;
+}
+.homesection{
+    width:50%;
+    
+}
+
+#content h1{
+    margin-left:150px;
+    margin-top:180px;
+    font-size:48px;
+    font-family:Dancing Script;
+
+}
+#red{
+    color:rgb(161, 22, 22)
+}
+#para{
+    font-size: 21px;
+    margin-left: 100px;
+    margin-bottom:50px;
+}
+.btn{
+    color:white;
+    border:2px solid black;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 10%;
+    padding: 10px;
+    margin-left:100px;
+    
+}
+#picture{
+    width:"20%";
+    position:relative;
+    top:80px;
+    left:60px;
+
+}
+.imgs{
+    position: absolute;
+    left:0;
+    bottom:0;
+    transition: 2s;
+
+}
+
+#picture:hover #img1{
+    bottom:30px;
+}
+#picture:hover #img2{
+    left:30px;
+}
+#about{
+
+  margin-top:110px;
+}
+.abouthead{
+    text-align: center;
+    font-family:Dancing Script; 
+}
+.mainhead{
+    font-size: 50px;
+}
+.subhead{
+    font-size: 25px;
+    color:green;
+}
+.aboutcontent{
+    display:flex;
+}
+.abouttext{
+    line-height: 1.5;
+    padding:30px;
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 30px;
+    margin-left: 400px;
+     
+    
+
+}
+.aboutimage{
+    margin-top: 5px;
+    width:30px;
+    margin-left: 80px;
+   
+}
+.info{
+    color:black;
+    margin-top: 20px;
+    
+   }
+   .skillhead{
+     text-align: center;
+    font-family:Dancing Script; 
+    position: relative;
+    top:70px;
+
+   }
+   .skillcontent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    margin-top: 100px;
+   }
+   #simage{
+    height: 400px;
+    
+   }
+   .bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 25px ;
+    position: relative;
+    /* padding-right: 80px; */
+    
+   }
+   .html ,.per{
+    font-size: 20px;
+    font-weight: bold;
+   }
+   .basebar{
+    height:.6rem;
+    width:100%;
+    background-color: black;
+    border-radius: .5rem;
+    position:absolute;
+    top:40px;
+
+   }
+   #htmlbar{
+    background-color: rgb(168, 168, 57);
+    width:90%;
+    position: absolute;
+   }
+      .css ,.cssper{
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 13px;
+   }
+   .bar2{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 25px ;
+    position: relative;
+    top:30px;
+
+   }
+    .javascript ,.javaper{
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 14px;
+   }
+    .bar3{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 25px ;
+    position: relative;
+    top:60px;
+
+   }
+    .bar4{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 25px ;
+    position: relative;
+    top:90px;
+
+   }
+    .Bootstrap ,.bootper{
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 14px;
+   }
+   #btbar{
+      background-color: rgb(168, 168, 57);
+      width:83%;
+
+   }
+   #jsbar{
+     background-color: rgb(168, 168, 57);
+      width:87%;
+
+   }
+   #cssbar{
+     background-color: rgb(168, 168, 57);
+      width:80%;
+   }
+     .contacthead{
+     text-align: center;
+    font-family:Dancing Script; 
+    position: relative;
+    top:70px;
+
+   }
+   .icon{
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(244, 186, 11);
+     display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:5px;
+    margin-right:5px;
+    
+    
+   }
+   .iconcollection{
+     display:flex;
+    align-items: center;
+    justify-content: center;   
+    margin-top: 80px;
+   }
+   .social{
+    color: black;
+   }
+   .social:hover{
+    color:white;
+
+   }
+   .icon:hover{
+  background-image: linear-gradient(yellow,red);
+  animation: rotate 3s;
+
+   }
+@keyframes rotate{
+    0%{transform: rotate(30deg);}
+    25%{transform: rotate(60deg);}
+    50%{transform: rotate(90deg);}
+    80%{transform: rotate(120deg);}
+    100%{transform: rotate(150deg);}
+
+}
+.copyright{
+    text-align: center;
+    font-weight:bold;
+    margin-top: 40px;
+}
+#iconarrow{
+    float:right;
+  
+    margin: -60px 30px 30px 0px;
+
+
+}
+html{
+    scroll-behavior: smooth;
+}
+/* ::-webkit-scrollbar{
+    width:4px;
+    border-radius:500px;
+   
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(118, 106, 106);
+    border-radius:500px;
+  
+} */
+/* ::-webkit-scrollbar-track{
+    background-color: antiquewhite;
+} */
+ 
+
+  
